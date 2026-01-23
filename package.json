@@ -1,5 +1,5 @@
 {
-  "name": "tpl-react-comp",
+  "name": "tpl-react-foo",
   "version": "1.0.0",
   "description": "A React component",
   "keywords": [
@@ -13,14 +13,14 @@
       "import": "./dist/index.js"
     }
   },
-  "homepage": "https://github.com/abernier/tpl-react-comp",
+  "homepage": "https://github.com/abernier/tpl-react-foo",
   "bugs": {
-    "url": "https://github.com/abernier/tpl-react-comp/issues"
+    "url": "https://github.com/abernier/tpl-react-foo/issues"
   },
   "author": "abernier",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abernier/tpl-react-comp.git"
+    "url": "git+https://github.com/abernier/tpl-react-foo.git"
   },
   "license": "MIT",
   "files": [
