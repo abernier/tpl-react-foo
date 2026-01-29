@@ -18,6 +18,7 @@
     - [ ] Then add a trusted publisher on npmjs.com, following: https://docs.npmjs.com/trusted-publishers
     - [ ] In order `changesets/action` can PR, in repo's `Settings > Actions > General`, check:
       > [x] Allow GitHub Actions to create and approve pull requests
+  - [ ] commit + `nr changeset` patch + push
 </details>
 
 # Dev
