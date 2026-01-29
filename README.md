@@ -2,6 +2,24 @@
 [![](https://img.shields.io/badge/chromatic-171c23.svg?logo=chromatic)](https://www.chromatic.com/library?appId=697362825d032aaf9eea0c48&branch=main)
 [![](https://img.shields.io/badge/storybook-171c23.svg?logo=storybook)](https://main--697362825d032aaf9eea0c48.chromatic.com)
 
+<details>
+  <summary>tpl-react-foo</summary>
+
+  Once "used template":
+  - [ ] find and replace `tpl-react-foo` with your name
+  - [ ] create a new chromatic app
+    - [ ] configure the `CHROMATIC_PROJECT_TOKEN` in actions/dependabot secrets settings
+    - [ ] find and replace `697362825d032aaf9eea0c48` with your appId
+  - [ ] You need to do the initial publish manually:
+    ```sh
+    $ npm login
+    $ npm publish --access public
+    ```
+    - [ ] Then add a trusted publisher on npmjs.com, following: https://docs.npmjs.com/trusted-publishers
+    - [ ] In order `changesets/action` can PR, in repo's `Settings > Actions > General`, check:
+      > [x] Allow GitHub Actions to create and approve pull requests
+</details>
+
 # Dev
 
 ## INSTALL
@@ -37,17 +55,3 @@ pnpm exec changeset
 ```
 
 This helps us maintain the changelog and version the package appropriately.
-
-## PUBLISHING
-
-1. You need to do the initial publish manually:
-   ```sh
-   $ npm login
-   $ npm publish --access public
-   ```
-
-2. Then add a trusted publisher on npmjs.com, following: https://docs.npmjs.com/trusted-publishers
-
-3. In order `changesets/action` can PR, in repo's `Settings > Actions > General`, check:
-   > [x] Allow GitHub Actions to create and approve pull requests
-
