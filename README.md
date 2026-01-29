@@ -40,12 +40,14 @@ This helps us maintain the changelog and version the package appropriately.
 
 ## PUBLISHING
 
-You need to do the initial publish manually:
+1. You need to do the initial publish manually:
+   ```sh
+   $ npm login
+   $ npm publish --access public
+   ```
 
-```sh
-$ npm login
-$ npm publish --access public
-```
+2. Then add a trusted publisher on npmjs.com, following: https://docs.npmjs.com/trusted-publishers
 
-Then add a trusted publisher on npmjs.com, following:
-https://docs.npmjs.com/trusted-publishers
+3. In order `changesets/action` can PR, in repo's `Settings > Actions > General`, check:
+   > [x] Allow GitHub Actions to create and approve pull requests
+
