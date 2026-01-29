@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/tpl-react-comp.svg)](https://www.npmjs.com/package/tpl-react-comp)
+[![npm version](https://img.shields.io/npm/v/tpl-react-foo.svg)](https://www.npmjs.com/package/tpl-react-foo)
 [![](https://img.shields.io/badge/chromatic-171c23.svg?logo=chromatic)](https://www.chromatic.com/library?appId=697362825d032aaf9eea0c48&branch=main)
 [![](https://img.shields.io/badge/storybook-171c23.svg?logo=storybook)](https://main--697362825d032aaf9eea0c48.chromatic.com)
 
